@@ -1,8 +1,9 @@
-/**---------------GENERAL------------------*/
+/**---------------------------------GENERAL--------------------------------*/
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #fff;
+  background-color: #fff;
+  color: #434455;
 }
 
 a {
@@ -13,28 +14,31 @@ ul {
   list-style: none;
 }
 
-span {
-  color: #4d5ae5;
-}
+/**-----------------------------------------------------------------------*/
 
-/**---------------------------------------*/
-
-/**---------------HEADER------------------*/
+/**-----------------------------HEADER-----------------------------------*/
 
 /*
 .header {
 }
 .header-nav {
+}
+.header-logo {
 }*/
 
-.header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+.header-logo,
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.logo-span-header {
+  color: #2e2f42;
 }
 
 /*
@@ -56,18 +60,18 @@ span {
   color: #404bbf;
 }
 
-/*
 .header-contacts {
+  font-style: normal;
 }
+
+/*
 .header-contacts-list {
 }
 .header-contacts-item {
 }*/
 
 .header-contacts-link {
-  color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,9 +83,9 @@ span {
   color: #404bbf;
 }
 
-/**---------------------------------*/
+/**-------------------------------------------------------------------*/
 
-/**------------MAIN-TITLE-----------*/
+/**----------------------------MAIN-TITLE-----------------------------*/
 
 .hero,
 .footer {
@@ -105,7 +109,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -115,27 +119,15 @@ span {
   background: #404bbf;
 }
 
-/**-----------------------------------*/
+/**---------------------------------------------------------------------*/
 
-/**------------FEATURES---------------*/
+/**------------------------------FEATURES-------------------------------*/
 
 /*.feature {
-}*/
-
-.feature-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
-
-/*.feature-list {
+.feature-title {
+}
+.feature-list {
 }
 .feature-list-item {
 }*/
@@ -154,15 +146,14 @@ span {
 .member-occupation,
 .portfolio-description,
 .footer-content {
-  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/**---------------------------------------*/
+/**-------------------------------------------------------------------*/
 
-/**----------------TEAM------------------*/
+/**------------------------------TEAM--------------------------------*/
 
 .team {
   background: #f4f4fd;
@@ -179,10 +170,13 @@ span {
 }
 
 /*.team-list {
-}
+}*/
+
 .team-list-item {
+  background-color: #fff;
 }
-.team-img {
+
+/*.team-img {
 }*/
 
 .team-member {
@@ -193,9 +187,9 @@ span {
   text-align: center;
 }
 
-/**----------------------------------*/
+/**------------------------------------------------------------------*/
 
-/**--------------PORTFOLIO-----------*/
+/**-------------------------PORTFOLIO---------------------------------*/
 
 /*.portfolio {
 }*/
@@ -218,22 +212,16 @@ span {
 }
 */
 
-/**-------------------------------*/
+/**-----------------------------------------------------------------*/
 
-/**------------FOOTER--------------*/
+/**-------------------------------FOOTER----------------------------*/
 
-.footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+/*.footer-logo {
+}*/
 
+.logo-span-footer,
 .footer-content {
   color: #f4f4fd;
 }
 
-/**--------------------------------*/
+/**----------------------------------------------------------------*/
